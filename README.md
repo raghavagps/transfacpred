@@ -5,6 +5,14 @@ TransFacPred is developed for predicting the transcription factors (TFs) using t
 TransFacPred is also available as web-server at https://webs.iiitd.edu.in/raghava/transfacpred. Please read/cite the content about the TransFacPred for complete information including algorithm behind TransFacPred.
 
 ## Standalone
+The Standalone version of transfacpred is written in python3 and following libraries are necessary for the successful run:
+- scikit-learn
+- Keras
+- Pytorch
+- Pandas
+- Numpy
+### Important Note:
+
 ```
 ### Important Note:
 ```
