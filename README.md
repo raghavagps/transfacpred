@@ -11,21 +11,34 @@ The Standalone version of transfacpred is written in python3 and following libra
 - Pytorch
 - Pandas
 - Numpy
-### Important Note:
+### Important Note
+- Due to large size of the model and database files, we have not included them in the zipped folder or GitHub repository, hence to run standalone successfully you need to download two file and then have to unzip them.
+- Make sure you extract the download zip files in the directory where main execution file i.e. transfacpred.py is available.
+- To download the Database folder click [here].(https://webs.iiitd.edu.in/raghava/transfacpred/database.zip)
+- To download the Model folder click [here].(https://webs.iiitd.edu.in/raghava/transfacpred/Models.zip)
 
+## Minimum USAGE
+To know about the available option for the stanadlone, type the following command:
 ```
-### Important Note:
+python transfacpred.py -h
 ```
+To run the example, type the following command:
+```
+python3 transfacpred.py -i protein.fa
+```
+This will predict if the submitted sequences are TFs or Non-TFs. It will use other parameters by default. It will save the output in "outfile.csv" in CSV (comma seperated variables).
 
-Models: In this program, two models have been incorporated for predicting TFs. 1) ProtBert Based Model 2) Hybrid (CNN+BLAST) model
-
-Minimum USAGE: Minimum usage is "python transfacpred.py -i protein.fa," where protein.fa is a input fasta file. This will predict if the submitted sequences are TFs or Non-TFs. It will use other parameters by default. It will save output in "outfile.csv" in CSV (comma seperated variables).
-
-Full Usage: Following is complete list of all options, you may get these options by "python transfacpred.py -h" 
-
-usage: transfacpred.py [-h] -i INPUT [-o OUTPUT] [-t THRESHOLD] [-m {1,2}] [-d {1,2}]
-
-Please provide following arguments
+## Full Usage
+```
+usage: transfacpred.py [-h] 
+                       [-i INPUT 
+                       [-o OUTPUT]
+                       [-t THRESHOLD]
+                       [-m {1,2}]
+                       [-d {1,2}]
+```
+```
+Please provide following arguments for successful run
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -39,32 +52,18 @@ optional arguments:
                         Model: 1: ProtBert based approach, 2: Hybrid (CNN+BLAST) approach, by default 1
   -d {1,2}, --display {1,2}
                         Display: 1:Transcription Factors, 2: All Sequences, by default 1
+```
 
-**Input File:** It allow users to provide input in two format; i) FASTA format (standard) and ii) Simple Format. In case of simple format, file should have one peptide sequence in a single line in single letter code. 
+**Input File:** It allow users to provide input in the FASTA format.
 
 **Output File:** Program will save the results in the CSV format, in case user do not provide output file name, it will be stored in "outfile.csv".
 
 **Threshold:** User should provide threshold between 0 and 1.
 
+**Method:** The user can choose between two options as follows:
+- 1 for ProtBert based model
+- 2 for hybrid (CNN + BLAST) model
 
-TransFacPred Package Files
-=======================
-It contantain following files, brief descript of these files given below
-
-INSTALLATION  			: Installations instructions
-
-LICENSE       			: License information
-
-README.md     			: This file provide information about this package
-
-Models        		        : This folder comprises of models needed for the prediction
-
-transfacpred.py 		: Main python program 
-
-protein.fa			: Example file contain protein sequenaces in FASTA format 
-
-example_output_protbert.csv	: Example output file using model 1, i.e. ProtBert Model
-
-example_output_hybrid.csv	: Example output file using model 2. i.e. Hybrid Model (CNN+BLAST)
-
-envfile				: This file comprises of the path for BLASTP and database
+**Displat Type:** The user can choose between two options as follows:
+- 1 to show only those sequences which are predicted as transcription factors
+- 2 will show the prediction for all sequences
