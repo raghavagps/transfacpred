@@ -1,6 +1,8 @@
 # **TransFacPred**
-# *Introduction*
-TransFacPred is developed for predicting transcription factors (TFs) using the protein primary sequence information. More information on TransFacPred is available from its web-server https://webs.iiitd.edu.in/raghava/transfacpred. This page provides information about stnadalone version of TransFacPred. Please read/cite the content about the TransFacPred for complete information including algorithm behind TransFacPred.
+A highly accurate method to predict the transcription factors using protein sequences.
+## Introduction
+TransFacPred is developed for predicting the transcription factors (TFs) using the protein primary sequence information. In this approach, two deep-learning based models have been implemented, such as ProtBert and Hybrid model which is a combination of CNN and BLAST Search.
+TransFacPred is also available as web-server at https://webs.iiitd.edu.in/raghava/transfacpred. Please read/cite the content about the TransFacPred for complete information including algorithm behind TransFacPred.
 
 Models: In this program, two models have been incorporated for predicting TFs. 1) ProtBert Based Model 2) Hybrid (CNN+BLAST) model
 
