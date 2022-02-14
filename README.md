@@ -64,6 +64,6 @@ optional arguments:
 - 1 for ProtBert based model
 - 2 for hybrid (CNN + BLAST) model
 
-**Displat Type:** The user can choose between two options as follows:
+**Display Type:** The user can choose between two options as follows:
 - 1 to show only those sequences which are predicted as transcription factors
 - 2 will show the prediction for all sequences
