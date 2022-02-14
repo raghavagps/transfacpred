@@ -1,0 +1,5 @@
+#Path information for BLAST commands
+#Path information of the data required to run the BLAST 
+#User can change the paths according to their machines
+BLAST:/usr1/webserver/cgidocs/raghava/humcfs/FragileSequences/ncbi-blast-2.2.29+/bin/blastp
+BLAST database:database/transfacpred
