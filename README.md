@@ -6,7 +6,7 @@ TransFacPred is also available as web-server at https://webs.iiitd.edu.in/raghav
 
 ## Standalone
 ```
-**Important Note:**
+### Important Note:
 ```
 
 Models: In this program, two models have been incorporated for predicting TFs. 1) ProtBert Based Model 2) Hybrid (CNN+BLAST) model
