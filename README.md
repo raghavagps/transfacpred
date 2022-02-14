@@ -4,6 +4,11 @@ A highly accurate method to predict the transcription factors using protein sequ
 TransFacPred is developed for predicting the transcription factors (TFs) using the protein primary sequence information. In this approach, two deep-learning based models have been implemented, such as ProtBert and Hybrid model which is a combination of CNN and BLAST Search.
 TransFacPred is also available as web-server at https://webs.iiitd.edu.in/raghava/transfacpred. Please read/cite the content about the TransFacPred for complete information including algorithm behind TransFacPred.
 
+## Standalone
+```
+**Important Note:**
+```
+
 Models: In this program, two models have been incorporated for predicting TFs. 1) ProtBert Based Model 2) Hybrid (CNN+BLAST) model
 
 Minimum USAGE: Minimum usage is "python transfacpred.py -i protein.fa," where protein.fa is a input fasta file. This will predict if the submitted sequences are TFs or Non-TFs. It will use other parameters by default. It will save output in "outfile.csv" in CSV (comma seperated variables).
