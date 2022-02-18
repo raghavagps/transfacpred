@@ -1,5 +1,3 @@
-#Path information for BLAST commands
-#Path information of the data required to run the BLAST 
-#User can change the paths according to their machines
-BLAST:/usr/local/ncbi/blast/bin/blastp
-BLAST database:database/transfacpred
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d373abb101afdeb0854531456f3fcea9f9c079211b33a4fd525f34927ffb1da
+size 225
