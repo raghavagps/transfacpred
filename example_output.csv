@@ -1,0 +1,6 @@
+Seq_ID,ML_Score,BLAST_Score,Total_Score,Prediction
+Seq1,0.97,0.5,1.47,Transcription Factor
+Seq2,0.97,0.5,1.47,Transcription Factor
+Seq3,0.0,-0.5,-0.5,Non-Transcription Factor
+Seq4,0.02,-0.5,-0.48,Non-Transcription Factor
+Seq5,0.02,-0.5,-0.48,Non-Transcription Factor
