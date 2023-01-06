@@ -54,3 +54,5 @@ optional arguments:
 **Output File:** Program will save the results in the CSV format, in case user do not provide output file name, it will be stored in "outfile.csv".
 
 **Threshold:** User should provide threshold between -0.5 and 1.5.
+# Reference
+Patiyal et al. (2022) A hybrid approach for predicting transcription factors. <a href="https://doi.org/10.1101/2022.07.13.499865">Bioxriv doi: https://doi.org/10.1101/2022.07.13.499865 </a> 
