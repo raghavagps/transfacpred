@@ -4,6 +4,15 @@ A highly accurate method to predict the transcription factors using protein sequ
 TransFacPred is developed for predicting the transcription factors (TFs) using the protein primary sequence information. In this approach, Hybrid model was implemented in which is a combination of ET-based model and BLAST Search.
 TransFacPred is also available as web-server at https://webs.iiitd.edu.in/raghava/transfacpred. Please read/cite the content about the TransFacPred for complete information including algorithm behind TransFacPred.
 
+## PIP Installation
+PIP version is also available for easy installation and usage of this tool. The following command is required to install the package 
+```
+pip install transfacpred
+```
+To know about the available option for the pip package, type the following command:
+```
+transfacpred -h
+```
 ## Standalone
 The Standalone version of transfacpred is written in python3 and following libraries are necessary for the successful run:
 - scikit-learn
