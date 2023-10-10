@@ -1,5 +1,5 @@
 #Path information for BLAST commands
 #Path information of the data required to run the BLAST 
 #User can change the paths according to their machines
-BLAST:/usr/local/ncbi/blast/bin/blastp
+BLAST:blastp
 BLAST database:database/transfacpred
