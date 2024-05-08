@@ -18,6 +18,8 @@ The Standalone version of transfacpred is written in python3 and following libra
 - scikit-learn
 - Pandas
 - Numpy
+
+**NCBI-BLAST version 2.2.29+ is recommended as the hybrid model performed best with this version.**
 ### Important Note
 - Due to large size of the model and database files, we have not included them in the zipped folder or GitHub repository, hence to run standalone successfully you need to download two file and then have to unzip them.
 - Make sure you extract the download zip files in the directory where main execution file i.e. transfacpred.py is available.
