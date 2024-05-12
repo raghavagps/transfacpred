@@ -192,7 +192,7 @@ else:
 df_2b,df_1b = readseq(Sequence)
 df_3b = aac_comp(df_1b)
 df_4b = pred(df_3b,filepath+'/Models/ET_model.pkl')
-os.system(blastp + " -task blastp -db " + blastdb + " -query " + Sequence  + " -out RES_1_6_6.out -outfmt 6 -evalue 100  -max_target_seqs 1")
+os.system(blastp + " -task blastp -db " + blastdb + " -query " + Sequence  + " -out RES_1_6_6.out -outfmt 6 -evalue 100")
 df44 = BLAST_processor('RES_1_6_6.out',df_2b,df_4b,Threshold)
 if dplay == 1:
     df44 = df44.loc[df44.Prediction=="Transcription Factor"]
