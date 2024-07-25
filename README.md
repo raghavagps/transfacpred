@@ -66,4 +66,5 @@ optional arguments:
 
 **Threshold:** User should provide threshold between -0.5 and 1.5.
 # Reference
-Patiyal et al. (2022) A hybrid approach for predicting transcription factors. <a href="https://doi.org/10.1101/2022.07.13.499865">Bioxriv doi: https://doi.org/10.1101/2022.07.13.499865 </a> 
+Patiyal S, Tiwari P, Ghai M, Dhapola A, Dhall A and Raghava GPS (2024) A hybrid approach for predicting transcription factors. <a href="https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2024.1425419">Front. Bioinform. 4:1425419.
+ </a> 
