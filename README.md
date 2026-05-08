@@ -71,3 +71,6 @@ optional arguments:
 # Reference
 Patiyal S, Tiwari P, Ghai M, Dhapola A, Dhall A and Raghava GPS (2024) A hybrid approach for predicting transcription factors. <a href="https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2024.1425419">Front. Bioinform. 4:1425419.
  </a> 
+
+# Zenodo
+https://doi.org/10.5281/zenodo.19916841
